@@ -1,2 +1,4 @@
 /src/**/*.ts
 node_modules
+
+public/index.html

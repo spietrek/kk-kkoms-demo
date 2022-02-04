@@ -1,6 +1,6 @@
 <template>
   <div class="tw-p4 lg:tw-p-10">
-    <h1>This is the ABOUT page</h1>
+    <h1 class="tw-text-3xl">ADVANCED ORDERS</h1>
     <div class="tw-mt-16">
       <span>Count is: {{ state.count }}</span>
     </div>
@@ -22,7 +22,7 @@
 import { defineComponent, ref, watchEffect } from '@vue/composition-api'
 
 export default defineComponent({
-  setup(props, context) {
+  setup(props) {
     const input = ref('')
     const state = ref({
       count: props.initCount,
