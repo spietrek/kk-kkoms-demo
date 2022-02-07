@@ -1,6 +1,6 @@
 <template>
   <div class="tw-p4 lg:tw-p-10">
-    <h1 class="tw-text-3xl">ADVANCED ORDERS</h1>
+    <kk-underline-header title="Advanced Orders"></kk-underline-header>
     <div class="tw-mt-16">
       <span>Count is: {{ state.count }}</span>
     </div>
@@ -19,9 +19,14 @@
 </template>
 
 <script>
+import KkUnderlineHeader from '@/components/atoms/KkUnderlineHeader'
 import { defineComponent, ref, watchEffect } from '@vue/composition-api'
 
 export default defineComponent({
+  components: {
+    KkUnderlineHeader,
+  },
+
   setup(props) {
     const input = ref('')
     const state = ref({

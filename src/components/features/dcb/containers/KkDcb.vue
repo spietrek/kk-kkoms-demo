@@ -1,6 +1,6 @@
 <template>
   <div class="tw-p4 lg:tw-p-10">
-    <h1 class="tw-text-3xl">DCB</h1>
+    <kk-underline-header title="DCB"></kk-underline-header>
     <div class="tw-hero tw-min-h-screen tw-bg-base-300">
       <div class="tw-text-center tw-hero-content">
         <div class="tw-max-w-md">
@@ -18,7 +18,13 @@
 </template>
 
 <script>
+import KkUnderlineHeader from '@/components/atoms/KkUnderlineHeader'
+
 export default {
   name: 'Dcb',
+
+  components: {
+    KkUnderlineHeader,
+  },
 }
 </script>

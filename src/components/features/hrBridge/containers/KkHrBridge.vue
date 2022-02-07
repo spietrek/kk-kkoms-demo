@@ -1,6 +1,6 @@
 <template>
   <div class="tw-p4 lg:tw-p-10">
-    <kk-underline-header title="Inventory"></kk-underline-header>
+    <kk-underline-header title="HR Bridge"></kk-underline-header>
     <div class="tw-flex">
       <div class="tw-mt-8 tw-w-4/12">
         <div class="tw-card tw-card-bordered tw-bg-indigo-100">

@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <kk-shell-container>
+    <kk-shell>
       <router-view />
-    </kk-shell-container>
+    </kk-shell>
   </div>
 </template>
 
 <script>
-import KkShellContainer from '@/components/features/shell/containers/KkShellContainer'
+import KkShell from '@/components/features/shell/containers/KkShell'
 
 export default {
   components: {
-    KkShellContainer,
+    KkShell,
   },
 }
 </script>

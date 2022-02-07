@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img class="tw-block tw-mx-auto" alt="Vue logo" src="@/assets/logo.png" />
-    <kk-home-template msg="Welcome to Your Vue.js App" />
+    <kk-home-template />
   </div>
 </template>
 

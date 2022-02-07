@@ -31,7 +31,15 @@ const routes = [
     name: 'Advanced Orders',
     component: () =>
       import(
-        /* webpackChunkName: "advancedOrders" */ '@/components/features/advancedOrders/containers/KkAdvancedOrders.vue'
+        /* webpackChunkName: "advanced-orders" */ '@/components/features/advancedOrders/containers/KkAdvancedOrders.vue'
+      ),
+  },
+  {
+    path: '/hr-bridge',
+    name: 'HR Bridge',
+    component: () =>
+      import(
+        /* webpackChunkName: "hr-bridge" */ '@/components/features/hrBridge/containers/KkHrBridge.vue'
       ),
   },
 ]

@@ -31,6 +31,12 @@
           >
             Advanced Orders
           </router-link>
+          <router-link
+            class="tw-btn tw-btn-ghost tw-btn-sm rounded-btn"
+            to="/hr-bridge"
+          >
+            HR Bridge
+          </router-link>
         </div>
       </div>
       <div class="tw-navbar-end">
@@ -72,6 +78,6 @@
 
 <script>
 export default {
-  name: 'kk-shell-container',
+  name: 'kk-shell',
 }
 </script>

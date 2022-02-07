@@ -1,106 +1,60 @@
 <template>
-  <div class="tw-text-center">
-    <h1 class="tw-font-bold">{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br />
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-        >vue-cli documentation</a
-      >.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
-          target="_blank"
-          rel="noopener"
-          >babel</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router"
-          target="_blank"
-          rel="noopener"
-          >router</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex"
-          target="_blank"
-          rel="noopener"
-          >vuex</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
-          target="_blank"
-          rel="noopener"
-          >eslint</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-unit-jest"
-          target="_blank"
-          rel="noopener"
-          >unit-jest</a
-        >
-      </li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li>
-        <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>
-      </li>
-      <li>
-        <a href="https://forum.vuejs.org" target="_blank" rel="noopener"
-          >Forum</a
-        >
-      </li>
-      <li>
-        <a href="https://chat.vuejs.org" target="_blank" rel="noopener"
-          >Community Chat</a
-        >
-      </li>
-      <li>
-        <a href="https://twitter.com/vuejs" target="_blank" rel="noopener"
-          >Twitter</a
-        >
-      </li>
-      <li>
-        <a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a>
-      </li>
-    </ul>
-  </div>
+  <section class="tw-text-gray-600 tw-body-font">
+    <div class="tw-container tw-px-5 tw-py-24 tw-mx-auto">
+      <div class="tw-flex tw-flex-wrap tw-w-full tw-mb-20">
+        <kk-underline-header title="KKOMS"></kk-underline-header>
+
+        <p class="lg:tw-w-1/2 tw-w-full tw-leading-relaxed tw-text-gray-500">
+          Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
+          gentrify, subway tile poke farm-to-table. Franzen you probably haven't
+          heard of them man bun deep jianbing selfies heirloom prism food truck
+          ugh squid celiac humblebrag.
+        </p>
+      </div>
+      <div class="tw-flex tw-flex-wrap tw--m-4">
+        <div class="xl:tw-w-1/4 md:tw-w-1/2 tw-p-4">
+          <kk-image-card
+            title="DCB"
+            link="/dcb"
+            image-url="https://dummyimage.com/721x400"
+          ></kk-image-card>
+        </div>
+        <div class="xl:tw-w-1/4 md:tw-w-1/2 tw-p-4">
+          <kk-image-card
+            title="Inventory"
+            link="/inventory"
+            image-url="https://dummyimage.com/721x400"
+          ></kk-image-card>
+        </div>
+        <div class="xl:tw-w-1/4 md:tw-w-1/2 tw-p-4">
+          <kk-image-card
+            title="Advanced Orders"
+            link="/advanced-orders"
+            image-url="https://dummyimage.com/721x400"
+          ></kk-image-card>
+        </div>
+        <div class="xl:tw-w-1/4 md:tw-w-1/2 tw-p-4">
+          <kk-image-card
+            title="HR Bridge"
+            link="/hr-bridge"
+            image-url="https://dummyimage.com/721x400"
+          ></kk-image-card>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
+import KkImageCard from '@/components/molecules/KkImageCard'
+import KkUnderlineHeader from '@/components/atoms/KkUnderlineHeader.vue'
+
 export default {
   name: 'kk-home-template',
-  props: {
-    msg: String,
+
+  components: {
+    KkImageCard,
+    KkUnderlineHeader,
   },
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
