@@ -1,6 +1,6 @@
 <template>
   <section class="tw-text-gray-600 tw-body-font">
-    <div class="tw-container tw-px-5 tw-py-24 tw-mx-auto">
+    <div class="tw-container tw-p4 lg:tw-p-10 tw-mx-auto">
       <div class="tw-flex tw-flex-wrap tw-w-full tw-mb-20">
         <kk-underline-header title="KKOMS"></kk-underline-header>
 

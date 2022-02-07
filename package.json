@@ -12,7 +12,7 @@
     "lint-preview": "eslint . --ext .js --ext .vue"
   },
   "dependencies": {
-    "@vue/composition-api": "^1.4.5",
+    "@vue/composition-api": "^1.4.6",
     "axios": "^0.25.0",
     "core-js": "^3.21.0",
     "daisyui": "^1.25.4",

@@ -3,16 +3,16 @@
     <kk-underline-header title="Inventory"></kk-underline-header>
     <div class="tw-flex">
       <div class="tw-mt-8 tw-w-4/12">
-        <div class="tw-card tw-card-bordered tw-bg-indigo-100">
+        <div class="tw-card tw-card-bordered tw-bg-indigo-500">
           <figure>
             <img src="https://picsum.photos/id/1005/400/250" />
           </figure>
           <div class="tw-card-body">
-            <h2 class="tw-card-title">
+            <h2 class="tw-card-title tw-text-white">
               Top image
               <div class="tw-badge tw-mx-2 tw-badge-secondary">NEW</div>
             </h2>
-            <p>
+            <p class="tw-text-white">
               Rerum reiciendis beatae tenetur excepturi aut pariatur est eos.
               Sit sit necessitatibus veritatis sed molestiae voluptates incidunt
               iure sapiente.
@@ -24,9 +24,7 @@
         </div>
       </div>
       <div class="tw-mt-8 tw-w-4/12 tw-px-4">
-        <div
-          class="tw-card tw-shadow-xl tw-image-full tw-bg-indigo-100 tw-h-full"
-        >
+        <div class="tw-card tw-shadow-xl tw-image-full tw-h-full">
           <figure>
             <img src="https://picsum.photos/id/1005/400/250" />
           </figure>
