@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import KkShell from '@/components/features/shell/containers/KkShell'
+import KkShell from '@/views/shell/KkShell'
 
 export default {
   components: {

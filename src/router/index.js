@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '@/components/features/home/containers/KkHome.vue'
+import Home from '@/views/home/KkHome.vue'
 
 Vue.use(VueRouter)
 
@@ -14,16 +14,14 @@ const routes = [
     path: '/dcb',
     name: 'DCB',
     component: () =>
-      import(
-        /* webpackChunkName: "dcb" */ '@/components/features/dcb/containers/KkDcb.vue'
-      ),
+      import(/* webpackChunkName: "dcb" */ '@/views/dcb/KkDcb.vue'),
   },
   {
     path: '/inventory',
     name: 'Inventory',
     component: () =>
       import(
-        /* webpackChunkName: "inventory" */ '@/components/features/inventory/containers/KkInventory.vue'
+        /* webpackChunkName: "inventory" */ '@/views/inventory/KkInventory.vue'
       ),
   },
   {
@@ -31,7 +29,7 @@ const routes = [
     name: 'Advanced Orders',
     component: () =>
       import(
-        /* webpackChunkName: "advanced-orders" */ '@/components/features/advancedOrders/containers/KkAdvancedOrders.vue'
+        /* webpackChunkName: "advanced-orders" */ '@/views/advancedOrders/KkAdvancedOrders.vue'
       ),
   },
   {
@@ -39,7 +37,7 @@ const routes = [
     name: 'HR Bridge',
     component: () =>
       import(
-        /* webpackChunkName: "hr-bridge" */ '@/components/features/hrBridge/containers/KkHrBridge.vue'
+        /* webpackChunkName: "hr-bridge" */ '@/views/hrBridge/KkHrBridge.vue'
       ),
   },
 ]
