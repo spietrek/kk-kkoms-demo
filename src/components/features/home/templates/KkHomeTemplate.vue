@@ -50,7 +50,7 @@ import KkImageCard from '@/components/molecules/KkImageCard'
 import KkUnderlineHeader from '@/components/atoms/KkUnderlineHeader.vue'
 
 export default {
-  name: 'kk-home-template',
+  name: 'KkHomeTemplate',
 
   components: {
     KkImageCard,

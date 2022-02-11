@@ -84,6 +84,6 @@
 
 <script>
 export default {
-  name: 'kk-shell',
+  name: 'KkShell',
 }
 </script>

@@ -38,7 +38,7 @@
 
 <script>
 export default {
-  name: 'kk-image-card',
+  name: 'KkImageCard',
 
   props: {
     title: {

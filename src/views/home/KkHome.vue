@@ -8,7 +8,7 @@
 import KkHomeTemplate from '@/components/features/home/templates/KkHomeTemplate'
 
 export default {
-  name: 'kk-home',
+  name: 'KkHome',
 
   components: {
     KkHomeTemplate,

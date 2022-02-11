@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'kk-underline-header',
+  name: 'KkUnderlineHeader',
 
   props: {
     title: {

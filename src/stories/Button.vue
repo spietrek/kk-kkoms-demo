@@ -1,14 +1,14 @@
 <template>
-  <button type="button" :class="classes" @click="onClick" :style="style">{{
-    label
-  }}</button>
+  <button type="button" :class="classes" @click="onClick" :style="style">
+    {{ label }}
+  </button>
 </template>
 
 <script>
 import './button.css'
 
 export default {
-  name: 'my-button',
+  name: 'MyButton',
 
   props: {
     label: {
@@ -28,6 +28,7 @@ export default {
     },
     backgroundColor: {
       type: String,
+      default: '',
     },
   },
 
