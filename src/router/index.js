@@ -40,6 +40,12 @@ const routes = [
         /* webpackChunkName: "hr-bridge" */ '@/views/hrBridge/KkHrBridge.vue'
       ),
   },
+  {
+    path: '/finance',
+    name: 'Finance',
+    component: () =>
+      import(/* webpackChunkName: "finance" */ '@/views/finance/KkFinance.vue'),
+  },
 ]
 
 const router = new VueRouter({

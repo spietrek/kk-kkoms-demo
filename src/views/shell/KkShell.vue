@@ -37,6 +37,12 @@
           >
             HR Bridge
           </router-link>
+          <router-link
+            class="tw-btn tw-btn-ghost tw-btn-sm rounded-btn"
+            to="/finance"
+          >
+            Finance
+          </router-link>
         </div>
       </div>
       <div class="tw-navbar-end">
