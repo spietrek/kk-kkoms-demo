@@ -7,10 +7,10 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "eslint": "eslint . --ext .js --ext .vue",
     "eslintfix": "eslint . --ext .js --ext .vue --fix",
+    "storybook": "start-storybook -p 6006",
     "stylelint": "stylelint src/**/*.{html,vue,css,sass,scss}",
     "stylelintfix": "stylelint src/**/*.{html,vue,css,sass,scss} --fix"
   },
