@@ -84,6 +84,6 @@
 
 <script>
 export default {
-  name: 'KkShell',
+  name: 'KkShellWrapper',
 }
 </script>

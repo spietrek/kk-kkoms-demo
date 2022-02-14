@@ -33,7 +33,7 @@ import { mapActions, mapGetters } from 'vuex'
 import KkUnderlineHeader from '@/components/atoms/KkUnderlineHeader'
 
 export default {
-  name: 'KkFinance',
+  name: 'KkFinanceView',
 
   components: {
     KkUnderlineHeader,

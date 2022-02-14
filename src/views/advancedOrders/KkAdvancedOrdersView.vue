@@ -23,6 +23,8 @@ import KkUnderlineHeader from '@/components/atoms/KkUnderlineHeader'
 import { defineComponent, ref, watchEffect } from '@vue/composition-api'
 
 export default defineComponent({
+  name: 'KkAdvancedOrdersView',
+
   components: {
     KkUnderlineHeader,
   },
