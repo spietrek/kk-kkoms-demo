@@ -1,10 +1,6 @@
 <template>
-  <div class="kk-shell-container">
-    <div
-      class="
-        tw-navbar tw-mb-2 tw-shadow-lg tw-bg-neutral tw-text-neutral-content
-      "
-    >
+  <div class="kk-shell-wrapper">
+    <div class="tw-navbar tw-bg-neutral tw-text-neutral-content">
       <div class="tw-px-2 tw-mx-2 tw-navbar-start">
         <span class="tw-text-lg tw-font-bold"> KKOMS </span>
       </div>
