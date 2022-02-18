@@ -48,6 +48,14 @@ const routes = [
         /* webpackChunkName: "finance" */ '@/pages/finance/KkFinancePage.vue'
       ),
   },
+  {
+    path: '*',
+    name: 'NotFound',
+    component: () =>
+      import(
+        /* webpackChunkName: "not-found" */ '@/pages/notFound/KkNotFoundPage.vue'
+      ),
+  },
 ]
 
 const router = new VueRouter({
