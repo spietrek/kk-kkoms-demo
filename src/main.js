@@ -4,7 +4,7 @@ import axios from 'axios'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import './main.css'
+import './styles/index.css'
 
 Vue.use(VueCompositionAPI)
 
