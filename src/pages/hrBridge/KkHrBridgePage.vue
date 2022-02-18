@@ -89,7 +89,7 @@
 import KkUnderlineHeader from '@/components/atoms/KkUnderlineHeader'
 
 export default {
-  name: 'KkHrBridgeView',
+  name: 'KkHrBridgePage',
 
   components: {
     KkUnderlineHeader,

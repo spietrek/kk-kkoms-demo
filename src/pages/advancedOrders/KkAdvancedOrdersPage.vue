@@ -7,6 +7,9 @@
     <button class="tw-btn tw-btn-primary tw-btn-sm" @click="increaseCount">
       Increase Count
     </button>
+    <button class="tw-btn tw-btn-primary tw-btn-sm" @click="decreaseCount">
+      Decrease Count
+    </button>
     <div class="tw-mt-16">New To Do Entered: {{ input }}</div>
     <div>
       <input
@@ -23,7 +26,7 @@ import KkUnderlineHeader from '@/components/atoms/KkUnderlineHeader'
 import { defineComponent, ref, watchEffect } from '@vue/composition-api'
 
 export default defineComponent({
-  name: 'KkAdvancedOrdersView',
+  name: 'KkAdvancedOrdersPage',
 
   components: {
     KkUnderlineHeader,
@@ -39,6 +42,10 @@ export default defineComponent({
       state.value.count++
     }
 
+    const decreaseCount = () => {
+      state.value.count--
+    }
+
     watchEffect(() => {
       console.log('current count', state.value)
     })
@@ -47,6 +54,7 @@ export default defineComponent({
       state,
       input,
       increaseCount,
+      decreaseCount,
     }
   },
 

@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '@/views/home/KkHomeView.vue'
+import Home from '@/pages/home/KkHomePage.vue'
 
 Vue.use(VueRouter)
 
@@ -14,14 +14,14 @@ const routes = [
     path: '/dcb',
     name: 'DCB',
     component: () =>
-      import(/* webpackChunkName: "dcb" */ '@/views/dcb/KkDcbView.vue'),
+      import(/* webpackChunkName: "dcb" */ '@/pages/dcb/KkDcbPage.vue'),
   },
   {
     path: '/inventory',
     name: 'Inventory',
     component: () =>
       import(
-        /* webpackChunkName: "inventory" */ '@/views/inventory/KkInventoryView.vue'
+        /* webpackChunkName: "inventory" */ '@/pages/inventory/KkInventoryPage.vue'
       ),
   },
   {
@@ -29,7 +29,7 @@ const routes = [
     name: 'Advanced Orders',
     component: () =>
       import(
-        /* webpackChunkName: "advanced-orders" */ '@/views/advancedOrders/KkAdvancedOrdersView.vue'
+        /* webpackChunkName: "advanced-orders" */ '@/pages/advancedOrders/KkAdvancedOrdersPage.vue'
       ),
   },
   {
@@ -37,7 +37,7 @@ const routes = [
     name: 'HR Bridge',
     component: () =>
       import(
-        /* webpackChunkName: "hr-bridge" */ '@/views/hrBridge/KkHrBridgeView.vue'
+        /* webpackChunkName: "hr-bridge" */ '@/pages/hrBridge/KkHrBridgePage.vue'
       ),
   },
   {
@@ -45,7 +45,7 @@ const routes = [
     name: 'Finance',
     component: () =>
       import(
-        /* webpackChunkName: "finance" */ '@/views/finance/KkFinanceView.vue'
+        /* webpackChunkName: "finance" */ '@/pages/finance/KkFinancePage.vue'
       ),
   },
 ]

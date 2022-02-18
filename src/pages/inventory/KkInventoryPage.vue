@@ -67,7 +67,7 @@
 import KkUnderlineHeader from '@/components/atoms/KkUnderlineHeader'
 
 export default {
-  name: 'KkInventoryView',
+  name: 'KkInventoryPage',
 
   components: {
     KkUnderlineHeader,

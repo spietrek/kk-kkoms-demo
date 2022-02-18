@@ -10,7 +10,7 @@ import KkDcbTemplate from '@/components/features/dcb/templates/KkDcbTemplate'
 import { defineComponent, provide, ref } from '@vue/composition-api'
 
 export default defineComponent({
-  name: 'KkDcbView',
+  name: 'KkDcbPage',
 
   components: {
     KkDcbTemplate,
