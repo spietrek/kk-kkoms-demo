@@ -3,9 +3,9 @@
     <button class="tw-btn tw-btn-primary" @click="addCard">Add Card</button>
     <div class="tw-flex tw-flex-wrap tw--m-4">
       <template v-for="card in cards">
-        <div class="xl:tw-w-1/4 md:tw-w-1/2 tw-p-4" :key="card.title">
+        <div class="xl:tw-w-1/4 md:tw-w-1/2 tw-p-4">
           <kk-image-card
-            :title="card.title"
+            :title="card.title | uppercase"
             :link="card.link"
             :image-url="card.imageUrl"
           ></kk-image-card>
@@ -33,6 +33,14 @@ export default {
     addCard: {
       from: 'addCard',
       default: () => () => {},
+    },
+  },
+
+  filters: {
+    uppercase: function (value) {
+      if (!value) return ''
+      value = value.toString()
+      return value.toUpperCase()
     },
   },
 }
