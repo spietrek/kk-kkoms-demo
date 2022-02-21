@@ -20,14 +20,14 @@
   "dependencies": {
     "@vue/composition-api": "^1.4.6",
     "axios": "^0.26.0",
-    "core-js": "^3.21.0",
+    "core-js": "^3.21.1",
     "daisyui": "1.25.4",
     "vue": "^2.6.14",
     "vue-router": "^3.5.3",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.4",
+    "@babel/core": "^7.17.5",
     "@storybook/addon-a11y": "^6.4.19",
     "@storybook/addon-actions": "^6.4.19",
     "@storybook/addon-essentials": "^6.4.19",
