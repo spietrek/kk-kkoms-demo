@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import KkImageCard from '@/components/molecules/KkImageCard'
+import KkImageCard from '@/components/molecules/KkImageCard.vue'
 
 export default {
   name: 'KkHomeWrapper',

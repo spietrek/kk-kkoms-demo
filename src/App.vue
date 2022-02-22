@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import KkShellWrapper from '@/components/organisms/KkShellWrapper'
+import KkShellWrapper from '@/components/organisms/KkShellWrapper.vue'
 
 export default {
   components: {

@@ -1,5 +1,5 @@
 import StoryRouter from 'storybook-vue-router'
-import KkImageCard from './KkImageCard'
+import KkImageCard from './KkImageCard.vue'
 import { routesData } from '@/stories/data/routes'
 
 export default {

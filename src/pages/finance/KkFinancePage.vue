@@ -29,7 +29,7 @@
 
 <script>
 import { mapActions, mapGetters } from 'vuex'
-import KkPageWrapper from '@/components/organisms/KkPageWrapper'
+import KkPageWrapper from '@/components/organisms/KkPageWrapper.vue'
 
 export default {
   name: 'KkFinancePage',

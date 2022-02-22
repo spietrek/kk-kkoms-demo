@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import KkHero from '@/components/molecules/KkHero'
+import KkHero from '@/components/molecules/KkHero.vue'
 
 import { defineComponent } from '@vue/composition-api'
 

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import KkDcbWrapper from '@/components/features/dcb/organisms/KkDcbWrapper'
+import KkDcbWrapper from '@/components/features/dcb/organisms/KkDcbWrapper.vue'
 
 import { defineComponent } from '@vue/composition-api'
 

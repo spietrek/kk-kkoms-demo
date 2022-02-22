@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import KkPageWrapper from '@/components/organisms/KkPageWrapper'
+import KkPageWrapper from '@/components/organisms/KkPageWrapper.vue'
 import { defineComponent, ref, watchEffect } from '@vue/composition-api'
 
 export default defineComponent({
