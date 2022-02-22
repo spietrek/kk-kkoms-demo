@@ -11,10 +11,20 @@
   "parserOptions": {
     "parser": "babel-eslint"
   },
+  "plugins": ["import"],
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [["@", "./src"]],
+        "extensions": [".vue", ".json", ".js"]
+      }
+    }
+  },
   "rules": {
     "array-callback-return": "warn",
     "eqeqeq": "warn",
     "import/no-duplicates": "warn",
+    "import/extensions": ["warn", { "vue": "always" }],
     "import/no-extraneous-dependencies": "off",
     "import/no-named-default": "warn",
     "import/no-webpack-loader-syntax": "off",
