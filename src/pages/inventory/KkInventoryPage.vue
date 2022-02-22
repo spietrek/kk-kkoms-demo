@@ -1,6 +1,5 @@
 <template>
-  <div class="tw-p4 lg:tw-p-10">
-    <kk-underline-header title="Inventory"></kk-underline-header>
+  <KkPageWrapper title="Inventory">
     <div class="tw-flex">
       <div class="tw-mt-8 tw-w-4/12">
         <div class="tw-card tw-card-bordered tw-bg-indigo-500">
@@ -60,17 +59,17 @@
         </div>
       </div>
     </div>
-  </div>
+  </KkPageWrapper>
 </template>
 
 <script>
-import KkUnderlineHeader from '@/components/atoms/KkUnderlineHeader'
+import KkPageWrapper from '@/components/organisms/KkPageWrapper.vue'
 
 export default {
   name: 'KkInventoryPage',
 
   components: {
-    KkUnderlineHeader,
+    KkPageWrapper,
   },
 }
 </script>

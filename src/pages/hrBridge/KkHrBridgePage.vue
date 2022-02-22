@@ -1,7 +1,5 @@
 <template>
-  <div class="tw-p4 lg:tw-p-10">
-    <kk-underline-header title="HR Bridge"></kk-underline-header>
-
+  <KkPageWrapper title="HR Bridge">
     <div class="tw-w-full tw-shadow-2xl tw-stats">
       <div class="tw-stat">
         <div class="tw-stat-figure tw-text-primary">
@@ -82,17 +80,17 @@
         <div class="tw-stat-desc tw-text-error">↘︎ 90 (14%)</div>
       </div>
     </div>
-  </div>
+  </KkPageWrapper>
 </template>
 
 <script>
-import KkUnderlineHeader from '@/components/atoms/KkUnderlineHeader'
+import KkPageWrapper from '@/components/organisms/KkPageWrapper.vue'
 
 export default {
   name: 'KkHrBridgePage',
 
   components: {
-    KkUnderlineHeader,
+    KkPageWrapper,
   },
 }
 </script>

@@ -1,21 +1,27 @@
 <template>
-  <div class="home">
+  <KkPageWrapper title="KKOMS" :summary="summary">
     <kk-home-template />
-  </div>
+  </KkPageWrapper>
 </template>
 
 <script>
-import KkHomeTemplate from '@/components/features/home/templates/KkHomeTemplate'
+import KkPageWrapper from '@/components/organisms/KkPageWrapper.vue'
+import KkHomeTemplate from '@/components/features/home/templates/KkHomeTemplate.vue'
 
 export default {
   name: 'KkHomePage',
 
   components: {
+    KkPageWrapper,
     KkHomeTemplate,
   },
 
   data() {
     return {
+      summary: `Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
+          gentrify, subway tile poke farm-to-table. Franzen you probably haven't
+          heard of them running deep jianbing selfies heirloom prism food truck
+          ugh squid celiac humblebrag.`,
       cards: [
         {
           title: 'DCB',

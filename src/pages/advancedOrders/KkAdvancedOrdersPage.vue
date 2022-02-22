@@ -1,6 +1,5 @@
 <template>
-  <div class="tw-p4 lg:tw-p-10">
-    <kk-underline-header title="Advanced Orders"></kk-underline-header>
+  <KkPageWrapper title="Advanced Orders">
     <div class="tw-mt-16">
       <span>Count is: {{ state.count }}</span>
     </div>
@@ -18,18 +17,18 @@
         v-model="input"
       />
     </div>
-  </div>
+  </KkPageWrapper>
 </template>
 
 <script>
-import KkUnderlineHeader from '@/components/atoms/KkUnderlineHeader'
+import KkPageWrapper from '@/components/organisms/KkPageWrapper'
 import { defineComponent, ref, watchEffect } from '@vue/composition-api'
 
 export default defineComponent({
   name: 'KkAdvancedOrdersPage',
 
   components: {
-    KkUnderlineHeader,
+    KkPageWrapper,
   },
 
   setup(props) {

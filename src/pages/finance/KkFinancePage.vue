@@ -1,6 +1,5 @@
 <template>
-  <div class="tw-p4 lg:tw-p-10">
-    <kk-underline-header title="Advanced Orders"></kk-underline-header>
+  <KkPageWrapper title="Finance">
     <div class="tw-mt-16">
       <span>Count is: {{ currentCount }}</span>
     </div>
@@ -25,18 +24,18 @@
     >
       Reset
     </button>
-  </div>
+  </KkPageWrapper>
 </template>
 
 <script>
 import { mapActions, mapGetters } from 'vuex'
-import KkUnderlineHeader from '@/components/atoms/KkUnderlineHeader'
+import KkPageWrapper from '@/components/organisms/KkPageWrapper'
 
 export default {
   name: 'KkFinancePage',
 
   components: {
-    KkUnderlineHeader,
+    KkPageWrapper,
   },
 
   computed: {
