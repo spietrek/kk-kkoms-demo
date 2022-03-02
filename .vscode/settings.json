@@ -1,6 +1,9 @@
 {
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
     "source.organizeImports": false
@@ -14,7 +17,7 @@
     "javascriptreact",
     "typescript",
     "typescriptreact",
-    "react"
+    "vue"
   ],
   "files.exclude": {
     "**/._*": true,
