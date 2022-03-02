@@ -45,9 +45,7 @@
         <div class="tw-stat-figure tw-text-info">
           <div class="tw-avatar tw-online">
             <div
-              class="
-                tw-w-24 tw-h-24 tw-p-1 tw-mask tw-mask-squircle tw-bg-base-100
-              "
+              class="tw-w-24 tw-h-24 tw-p-1 tw-mask tw-mask-squircle tw-bg-base-100"
             >
               <img
                 src="https://robohash.org/QJQ.png?set=set1&size=150x150"

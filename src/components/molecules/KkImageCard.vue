@@ -1,20 +1,12 @@
 <template>
   <div class="tw-bg-gray-100 tw-p-6 tw-rounded-lg">
     <img
-      class="
-        tw-h-40 tw-rounded tw-w-full tw-object-cover tw-object-center tw-mb-6
-      "
+      class="tw-h-40 tw-rounded tw-w-full tw-object-cover tw-object-center tw-mb-6"
       :src="imageUrl"
       alt="content"
     />
     <h3
-      class="
-        tw-tracking-widest
-        tw-text-indigo-500
-        tw-text-xs
-        tw-font-medium
-        tw-title-font
-      "
+      class="tw-tracking-widest tw-text-indigo-500 tw-text-xs tw-font-medium tw-title-font"
     >
       SUBTITLE
     </h3>

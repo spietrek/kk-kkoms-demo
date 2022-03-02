@@ -5,10 +5,7 @@
         <h1 class="tw-font-bold tw-text-blue-600 tw-text-9xl">404</h1>
 
         <h6
-          class="
-            tw-mb-2 tw-text-2xl tw-font-bold tw-text-center tw-text-gray-800
-            md:tw-text-3xl
-          "
+          class="tw-mb-2 tw-text-2xl tw-font-bold tw-text-center tw-text-gray-800 md:tw-text-3xl"
         >
           <span class="tw-text-red-500">Oops!</span> Page not found
         </h6>
@@ -19,14 +16,7 @@
 
         <a
           href="/"
-          class="
-            tw-px-6
-            tw-py-2
-            tw-text-sm
-            tw-font-semibold
-            tw-text-blue-800
-            tw-bg-blue-100
-          "
+          class="tw-px-6 tw-py-2 tw-text-sm tw-font-semibold tw-text-blue-800 tw-bg-blue-100"
           >Go home</a
         >
       </div>
