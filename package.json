@@ -7,6 +7,7 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
+    "tailwind": "npx tailwindcss -i ./src/styles/index.css -o ./app/styles/index.css --watch",
     "build-storybook": "build-storybook",
     "eslint": "eslint . --ext .js --ext .vue",
     "eslintfix": "eslint . --ext .js --ext .vue --fix",
